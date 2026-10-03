@@ -59,6 +59,16 @@ Notes:
 - Export → import with no edits reproduces the original file byte for byte.
 - `palette/approximately-up.act` is the 8-colour palette as an Adobe Colour Table. Load it in Photoshop (Indexed Color → Custom) or similar to stay on-palette.
 
+## Demo
+
+`examples/demo/` is a small two-whiteboard blueprint (`.bp`, `.bpmeta`, `.bpex`) to try the tool on: copy the three files into your Blueprints folder, load "Whiteboard" in the game, and run:
+
+```bash
+python bpex.py export examples/demo/9ddec29d-8178-443e-a222-531d9a15d347.bpex out
+```
+
+Board 0 has a dot in each corner and the middle; board 1 has the pen colours written out. The PNGs are already in `examples/demo/png/`.
+
 ## Limitations
 
 - It can't change the number of whiteboards in a blueprint; do that in the game.
