@@ -61,13 +61,15 @@ Notes:
 
 ## Demo
 
-`examples/demo/` is a small two-whiteboard blueprint (`.bp`, `.bpmeta`, `.bpex`) to try the tool on: copy the three files into your Blueprints folder, load "Whiteboard" in the game, and run:
+`examples/demo/` is a small blueprint (one whiteboard and a light) to try the tool on. Copy the three files (`.bp`, `.bpmeta`, `.bpex`) into your Blueprints folder, load "Whiteboard" in the game, and run:
 
 ```bash
 python bpex.py export examples/demo/9ddec29d-8178-443e-a222-531d9a15d347.bpex out
 ```
 
-Board 0 has a dot in each corner and the middle; board 1 has the pen colours written out. The PNGs are already in `examples/demo/png/`.
+![Demo whiteboard exported to PNG](examples/demo/preview.png)
+
+The demo image was made for this project (AI-assisted) and dithered to the game's 8 colours.
 
 ## Limitations
 
