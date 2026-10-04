@@ -55,7 +55,7 @@ Notes:
 
 - **Slots are 1:1 with the file, not with creation order.** Boards are stored in an order set by the game; use your labels to find which is which. This tool never adds, removes or reorders boards.
 - **Import replaces only the boards you pass.** A PNG named `*_N.png` goes into slot N; unnumbered PNGs fill slots 0, 1, … in order. Everything else is left untouched.
-- The first import onto a file writes `<file>.bpex.bak` next to it. Keep your own backups of the blueprint too, and close the game before replacing files.
+- The first import onto a file writes `<file>.bpex.bak` next to it. Keep your own backups of the blueprint too. You don't need to close the game before importing.
 - Export → import with no edits reproduces the original file byte for byte.
 - `palette/approximately-up.act` is the 8-colour palette as an Adobe Colour Table. Load it in Photoshop (Indexed Color → Custom) or similar to stay on-palette.
 
