@@ -7,6 +7,8 @@ This is an unofficial, community tool. It was made by reverse-engineering the sa
 **Don't want to install Python?** The same tool runs in your browser at
 [approximatelyuseful.com/whiteboards](https://approximatelyuseful.com/whiteboards/). Your files never leave your computer.
 
+![Two whiteboards in game: a colour-coded table of control channels, and a drawing imported from a PNG](examples/in-game.webp)
+
 ## How it works
 
 Whiteboard pixels are not stored in the `.bp` blueprint file. They live in a sibling `.bpex` file with the same name. A `.bpex` is a sequence of boards, one after another, each one:
