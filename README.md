@@ -4,6 +4,9 @@ Export the drawings on your [Approximately Up](https://store.steampowered.com/se
 
 This is an unofficial, community tool. It was made by reverse-engineering the save format and is not affiliated with the game's developers. Tested with game version 1.0.212; later versions may change the format.
 
+**Don't want to install Python?** The same tool runs in your browser at
+[approximatelyuseful.com/whiteboards](https://approximatelyuseful.com/whiteboards/). Your files never leave your computer.
+
 ## How it works
 
 Whiteboard pixels are not stored in the `.bp` blueprint file. They live in a sibling `.bpex` file with the same name. A `.bpex` is a sequence of boards, one after another, each one:
